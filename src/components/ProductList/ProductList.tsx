@@ -30,7 +30,7 @@ const ProductList = () => {
       ))}
       {isLoading && <PanelSpinner />}
       {!products.length && !isLoading && (
-        <Title level="3" style={{padding: 30, margin: '0 auto'}}>Ваша корзина пуста</Title>
+        <Title level="3" style={{padding: 30}}>Ваша корзина пуста</Title>
       )}
     </Group>
   );
