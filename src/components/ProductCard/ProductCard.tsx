@@ -62,7 +62,7 @@ const ProductCard = ({
       </div>
       <div>
         <Headline level="1" style={{ marginBottom: "5px" }}>
-          {price} $
+          {price} ₽
         </Headline>
         <Headline level="2">{title}</Headline>
         <ButtonGroup
