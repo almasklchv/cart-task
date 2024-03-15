@@ -1,0 +1,9 @@
+.card {
+    padding: 20px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.thumbnail {
+    margin-right: 15px
+}
